@@ -58,6 +58,32 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Sample ENV
+
+```
+APP_ID=**************
+PORT=9000
+LOG_LEVEL=debug
+REQUEST_LIMIT=100kb
+SESSION_SECRET=*********
+
+JWT_SECRET=*********
+#Swagger
+SWAGGER_API_SPEC=*********
+
+#DATABASE
+MONGODB_URI=*********
+
+debug= true
+whitelist_url=/**FRONTEND HOST**/,
+
+APP_HOST=/**FRONTEND HOST**/
+
+SENDGRID_API_KEY=*****************
+APP_EMAIL_SENDER=*****************
+
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
